@@ -164,7 +164,7 @@ def user_stats(df):
     # Displays counts of user types
     print('\nSubscribers: {}\nCustomers: {}'.format(df['User Type'].value_counts()[0], df['User Type'].value_counts()[1]))
 
-    # Displays counts of gender
+    # Displays counts of gender and handles empty gender field
     try:
         print('\nMale: {}\nFemale: {}'.format(df['Gender'].value_counts()[0], df['Gender'].value_counts()[1]))
     except KeyError:
