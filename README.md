@@ -11,11 +11,16 @@ USA Bikeshare Data allows you to view bikeshare data from New York City, Chicago
 
 ### Files used
 bikeshare.py
+
 chicago.csv
+
 new_york_city.csv
+
 washington.csv
 
 ### Credits
 Inspiring repositories/READMEs:
+
 https://github.com/udacity/course-collaboration-travel-plans
+
 https://github.com/GoogleChrome/lighthouse/blob/master/readme.md
