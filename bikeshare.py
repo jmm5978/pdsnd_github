@@ -66,7 +66,7 @@ def load_data(city, month, day):
 
     # extracts month and day of week from Start Time to create new columns
     df['month'] = df['Start Time'].dt.month
-    df['day_of_week'] = df['Start Time'].dt.weekday_name
+    df['day_of_week'] = df['Start Time'].dt.day_name()
 
     # filters by month if applicable
     if month != 'all':
