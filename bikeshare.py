@@ -27,7 +27,7 @@ def get_filters():
 
     # Gets user input for month (all, january, february, ... , june)
     while True:
-        month = input('Select a month (January, February, March, April, May, or June--or all)\n').lower()
+        month = input('Select one of the following months: January, February, March, April, May, or June--or all\n').lower()
         if month not in ['january','february','march','april','may','june','all']:
             print('Invalid month entered.')
         else:
@@ -35,7 +35,7 @@ def get_filters():
 
     # Gets user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day = input('Select a day (Monday, Tuesday, Wednesday, etc.--or all)\n').lower()
+        day = input('Select one of the following days: Monday, Tuesday, Wednesday, etc.--or all\n').lower()
         if day not in ['monday','tuesday','wednesday','thursday','friday','saturday','sunday','all']:
             print('Invalid day entered.')
         else:
